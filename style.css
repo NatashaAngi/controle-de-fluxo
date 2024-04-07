@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{padding: 0;
+border: 0;
+outline: none;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+
+body{font-family: "Kode Mono", monospace;
+display: flex;justify-content: center;align-items: center;height: 100vh;background:linear-gradient(45deg, #424242,#000000);}
+
+.container{ text-align: center;}
+
+.ola{color: greenyellow;text-shadow:3px 3px 4px  black;}
+
+.caminho{color: greenyellow;text-shadow:3px 3px 4px  black}
+
+button{padding:10px;border-radius: 10px;border: 1px solid greenyellow;color: greenyellow;background-color: transparent;box-shadow: -5px 5px 4px black;cursor: pointer;}
+
+button:hover{box-shadow: inset  -5px 5px 4px rgb(1, 50, 1);background-color: rgba(128, 186, 42, 0.812);color: white;}
+
+button:active{top:4px;position: relative}
+
+#output{margin-top: 20px;color: greenyellow;}
+
+p{color: white;}
+
+#finalizar{ margin-top: 30px;}
+.finalizar{ margin-top: 30px;}
+
+input{background-color: transparent;color: white; border: 1px solid greenyellow;padding: 14px;border-radius: 10px;}
+
+span{color: greenyellow;}
